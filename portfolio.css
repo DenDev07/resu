@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+ /* Utility Classes */
+.p {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    font-size: large;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+/*     flex-direction: row;
+    white-space: row pre-wrap; */
+}
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+/* End Utility Classes */
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5rem;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: cadetblue;
+    background-image: url("../portfolio/img/cover2.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.author {
+    border-bottom: 2px solid gray;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+
+    background-color: hsla(0, 0, 100, 0.35);
+}
+
+.h1 {
+    font-size: 150%;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+
+.profile-pic {
+    width: 100%;
+}
+
+.profile-pic img {
+    width: 70%;
+    height: auto;
+    min-width: 100px;
+    border: 1px double #464343;
+    border-radius: 50%;
+}
+
+header {
+    position: sticky;
+}
+
+nav {
+    background-color: #fff;
+    padding: 0.5rem;
+    font: 1.5rem 'Source Serif Pro', serif;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+main {
+    font: 1.5rem 'Source Serif Pro', serif;
+}
